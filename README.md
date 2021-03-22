@@ -9,4 +9,4 @@
 - Use Centos 8 VM from AWS Marketplace
 - Fix up some .so issues with symlinks
 - Install graphic packages
-- Launch of GUI tools blocked by windows to linux X connection issues
+- Launch of GUI tools need Xming or similar. See instructions [here](https://aws.amazon.com/blogs/compute/how-to-enable-x11-forwarding-from-red-hat-enterprise-linux-rhel-amazon-linux-suse-linux-ubuntu-server-to-support-gui-based-installations-from-amazon-ec2/).
