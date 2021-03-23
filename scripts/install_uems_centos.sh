@@ -6,4 +6,6 @@ sudo dnf upgrade -y
 wget http://strc.comet.ucar.edu/software/uems/documents/uems_install.pl.gz && gunzip -f uems_install.pl.gz
 chmod +x uems_install.pl
 ./uems_install.pl --install
+export MODULEPATH=${MODULEPATH}:/home/ec2-user/uems/etc/modulefiles
+module load UEMSwrkstn
 sudo systemctl set-default graphical.target
